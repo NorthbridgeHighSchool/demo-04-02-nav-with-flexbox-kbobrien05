@@ -1,3 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda&family=Concert+One&display=swap');
 img {
   max-width: 400px;
+}
+nav ul {
+  list-style-type: none;
+  padding-left: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+nav li {
+  margin-left: 20px;
+}
+nav a:link {
+  color: rgb(185, 84, 26);
+  border: 2px solid rgb(185, 84, 26);
+  background-color:rgb(233, 194, 150);
+  padding: 2px;
+  text-decoration: none;
+}
+nav a:visited {
+  color: rgb(223, 7, 72);
+  border: 2px solid rgb(223, 7, 72);
+  background-color:rgb(240, 191, 218);
+  padding: 2px;
+  text-decoration: none;
+}
+nav a:hover {
+  color: rgb(10, 65, 15);
+  text-decoration: underline;
+  background-color: rgb(184, 238, 184);
+  border: 2px solid rgb(10,65,15);
+}
+nav a.current {
+  color: rgb(73, 73, 73);
+  background-color: rgb(189, 188, 188);
+  border: 2px solid rgb(73, 73, 73);
+  padding: 2px; 
+}
+nav a:active {
+  color: rgb(69, 4, 88);
+  background-color:rgb(227, 184, 233);
+  border: 2px solid rgb(69, 4, 88);
+  padding: 2px;
+}
+html {
+  background-color: rgb(184, 227, 240);
+  color: rgb(8, 24, 119);
+}
+h1 {
+  font-family: "Concert One", fantasy;
+}
+h2 {
+  font-family: "Bodoni Moda", serif;
 }
